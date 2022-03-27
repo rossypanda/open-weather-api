@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Nunito",sans-serif;
+    background-image: url("../image/bg.jpg");
+    background-repeat: no-repeat, repeat;
+    /* background-color: #492020; Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+.input{
+    text-align: center;
+}
+
+input[type="text"]{
+    height: 40px;
+    width: 600px;
+    background: #e7e7e7;
+    font-family: "Nunito",sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 10px;
+}
+
+input[type="submit"]{
+    height: 50px;
+    width: 100px;
+    background: #e7e7e7;
+    font-family: "Nunito",sans-serif;
+    /* font-weight: bold; */
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+}
