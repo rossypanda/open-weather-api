@@ -17,13 +17,11 @@ var temp = document.querySelector('.temp') ;
 //         temp.innerHTML = tempValue;
 //         desc.innerHTML = descValue;
 //     })
-
 //     .catch(err => alert ("Wrong City name!"))
 // });
 
 function search(){
     var city = $("#inputValue").val();
-    
     // alert (inputValue);
 
     $.post("ajax/getForecast.php", {
