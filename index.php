@@ -24,7 +24,6 @@
           <!-- <input type="submit" class="button" value="Search" onclick="search()"> -->
         </div>
 
-
         <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
           <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
             <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
@@ -37,7 +36,36 @@
           </symbol>
         </svg>
 
-        <div class="display" id="forecast">
+        <div class="display" >
+        <main class="container">
+        <!-- <h2>Weather</h2> -->
+        <!-- results for weather data -->
+          <div class="weather row gx-2" id="forecast"> 
+            <div class="col" >
+              <div class="card" style="width: 15vw">
+                <h5 class="card-title p-2">Date</h5>
+                <img
+                  src="http://openweathermap.org/img/wn/10d@4x.png"
+                  class="card-img-top"
+                  alt="Weather description"
+                />
+                <div class="card-body">
+                  <h3 class="card-title">Weather Label</h3>
+                  <p class="card-text">High Temp Low Temp</p>
+                  <p class="card-text">HighFeels like</p>
+                  <p class="card-text">Pressure</p>
+                  <p class="card-text">Humidty</p>
+                  <p class="card-text">UV Index</p>
+                  <p class="card-text">Precipitation</p>
+                  <p class="card-text">Dew Point</p>
+                  <p class="card-text">Wind speed and direction</p>
+                  <p class="card-text">Sunrise</p>
+                  <p class="card-text">Sunset</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
           <h1 class="name"></h1>
           <p class="desc"></p>
           <p class="temp"></p>
