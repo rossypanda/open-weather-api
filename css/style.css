@@ -6,13 +6,27 @@
 
 body{
     font-family: "Nunito",sans-serif;
+    color: #6c757d;
     background-image: url("../image/bg.jpg");
     background-repeat: no-repeat, repeat;
-    /* background-color: #492020; Used if the image is unavailable */
-    height: 500px; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
+    /* background-color: #492020;  */
+    height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
     background-size: cover;
+    /* opacity: 0.2; */
+}
+
+h1, footer {
+    text-shadow: 2px 2px #fbdede
+  }
+
+.bg{
+    /* background-color: rgb(73, 32, 32);  */
+    background: rgba(241, 190, 190, 0.3);
+    width: 100%;
+    height: 700px;
+    /* opacity: 0.5; */
 }
 
 .input{
@@ -21,11 +35,11 @@ body{
 
 input[type="text"]{
     height: 40px;
-    width: 600px;
-    background: #e7e7e7;
+    width: 400px;
+    background: rgb(209, 135, 135, 0.6);
     font-family: "Nunito",sans-serif;
-    font-weight: bold;
-    font-size: 20px;
+    /* font-weight: bold; */
+    font-size: 15px;
     border: none;
     border-radius: 2px;
     padding: 10px 10px;
