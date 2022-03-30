@@ -13,13 +13,13 @@
 
   <body>
     <div class="container-fluid bg" >
-
       <header class="input">
           <h1>JAPAN FORECAST</h1>
         </header>
+        
       
         <div class="input ">
-          <input type="text" id="inputValue" placeholder="Enter Location...">
+          <input type="text" id="inputValue" placeholder="Enter city,country code">
           <button type="button" class="btn btn-outline-secondary" onclick="search()">Search</button>
           <!-- <input type="submit" class="button" value="Search" onclick="search()"> -->
         </div>
@@ -36,41 +36,13 @@
           </symbol>
         </svg>
 
-        <div class="display" >
         <main class="container">
         <!-- <h2>Weather</h2> -->
         <!-- results for weather data -->
-          <div class="weather row gx-2" id="forecast"> 
-            <div class="col" >
-              <div class="card" style="width: 15vw">
-                <h5 class="card-title p-2">Date</h5>
-                <img
-                  src="http://openweathermap.org/img/wn/10d@4x.png"
-                  class="card-img-top"
-                  alt="Weather description"
-                />
-                <div class="card-body">
-                  <h3 class="card-title">Weather Label</h3>
-                  <p class="card-text">High Temp Low Temp</p>
-                  <p class="card-text">HighFeels like</p>
-                  <p class="card-text">Pressure</p>
-                  <p class="card-text">Humidty</p>
-                  <p class="card-text">UV Index</p>
-                  <p class="card-text">Precipitation</p>
-                  <p class="card-text">Dew Point</p>
-                  <p class="card-text">Wind speed and direction</p>
-                  <p class="card-text">Sunrise</p>
-                  <p class="card-text">Sunset</p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <div class="weather row gx-2" id="forecast">  </div>
+          <div class="weather row gx-2" id="geoapify">  </div>
         </main>
-          <h1 class="name"></h1>
-          <p class="desc"></p>
-          <p class="temp"></p>
-        </div>
-
+          
         <footer class="input">
           <p>©Copyright 2022 </p>
         </footer>
@@ -83,3 +55,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
+
+<script>
+
+  $(document).ready( function(){
+    getLocation();
+  });
+</script>
