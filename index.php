@@ -37,8 +37,10 @@
         </svg>
 
         <main class="container">
-          <div class="weather row gx-2" id="geoapify">  </div>
-          <div class="weather row gx-2" id="forecast">  </div>
+        
+              <div class="weather row gx-2" id="geoapify"> </div>
+              <div class="weather row gx-2" id="forecast">  </div>
+            
         </main>
           
         <footer class="input">
