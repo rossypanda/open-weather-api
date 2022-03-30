@@ -6,7 +6,7 @@
 
 body{
     font-family: "Nunito",sans-serif;
-    color: #6c757d;
+    color: #3f5a85;
     background-image: url("../image/bg.jpg");
     background-repeat: no-repeat, repeat;
     /* background-color: #492020;  */
@@ -36,11 +36,12 @@ h1, footer {
 input[type="text"]{
     height: 40px;
     width: 400px;
-    background: rgb(209, 135, 135, 0.6);
+    background: rgb(248, 215, 218, 0.5);
     font-family: "Nunito",sans-serif;
     /* font-weight: bold; */
-    font-size: 15px;
+    font-size: 17px;
     border: none;
+    /* border-color: #6c757d; */
     border-radius: 2px;
     padding: 10px 10px;
 }
@@ -58,4 +59,30 @@ input[type="submit"]{
 
 .card-body p{
     font-size:12px;
+}
+
+.card-body {
+    padding: 7px !important;
+}
+
+.card-title {
+    margin: 0px !important;
+}
+
+#geoapify .col-sm{
+    background: rgba(183,204,232, .9);
+    border: 1px solid rgb(137 180 245);
+    padding: 15px;
+    /* border: 1px solid; */
+    margin: 20px 5px 10px 0px;
+    border-radius: 2px;
+}
+
+#forecast .card{
+    background: rgba(183,204,232, .9);
+    border: 1px solid rgb(137 180 245);
+}
+
+.details{
+    font-size:13px;
 }

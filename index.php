@@ -19,7 +19,7 @@
         
       
         <div class="input ">
-          <input type="text" id="inputValue" placeholder="Enter city,country code">
+          <input type="text" id="inputValue" placeholder="Enter city,country code...  ex. Tokyo,jp">
           <button type="button" class="btn btn-outline-secondary" onclick="search()">Search</button>
           <!-- <input type="submit" class="button" value="Search" onclick="search()"> -->
         </div>
@@ -37,10 +37,8 @@
         </svg>
 
         <main class="container">
-        <!-- <h2>Weather</h2> -->
-        <!-- results for weather data -->
-          <div class="weather row gx-2" id="forecast">  </div>
           <div class="weather row gx-2" id="geoapify">  </div>
+          <div class="weather row gx-2" id="forecast">  </div>
         </main>
           
         <footer class="input">
